@@ -1,0 +1,363 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>GentooVM</sitename>
+    <base>http://gentoovm.com/wiki/index.php/Main_Page</base>
+    <generator>MediaWiki 1.9.3</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">GentooVM</namespace>
+      <namespace key="5">GentooVM talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Main Page</title>
+    <id>1</id>
+    <revision>
+      <id>184</id>
+      <timestamp>2010-03-01T04:30:07Z</timestamp>
+      <contributor>
+        <ip>64.142.30.104</ip>
+      </contributor>
+      <comment>Removing spam.</comment>
+      <text xml:space="preserve">__NOTOC__
+&lt;h3&gt;Welcome to GentooVM.com (Gentoo Linux Virtual Machine)!&lt;/h3&gt;
+
+GentooVM provides [http://www.vmware.com/ VMWare] images of [http://www.gentoo.org/ Gentoo Linux]. Using a freely available [http://www.vmware.com/products/player/ VMWare player], you may load these images and test the [http://www.gentoo.org/ Gentoo Linux] operating system without actually installing [http://www.gentoo.org/ Gentoo Linux].
+
+== Why [http://en.wikipedia.org/wiki/Wiki Wiki]? ==
+Seeing as [http://en.wikipedia.org/wiki/Linux Linux] and related projects are predominantly community driven, I figured [http://en.wikipedia.org/wiki/Wiki Wiki] would provide an effective means to share my work and experiences with [http://www.gentoo.org/ Gentoo Linux] (specifically within [http://www.vmware.com/products/player/ VMWare player] for this site) as well as allowing others to freely contribute.  If anyone has any comments or suggestions, please post to the [[Talk:Main_Page|discussion page]].
+
+
+== News ==
+
+=== July 17th, 2009 ===
+
+Enhanced VM no longer hosted by me, it's way too far '''out of date.''' 
+I'm working on a new VM using the latest Gentoo Weekly release. I will post here when its done.
+--[[User:Stonie|Stonie]] 18:15, 16 July 2009 (PDT)
+
+=== June 17th, 2008 ===
+
+I've been meaning to (for a while now) work on a new release of the GentooVM but various delays continued to come up (work, school, etc).  Enough time went by that I decided to wait until the next Gentoo release came out (2008.0); but that ended up being a longer wait than I had anticipated.  I just wanted to post an update on the status of things (if anyone is even following it) and simply state that I do still plan to put some time into GentooVM once Gentoo 2008.0 comes out of beta.  At which time I plan on making the next GentooVM release also include all the improvements that [[User:Stonie|Stonie]] had worked on in his version of the GentooVM.
+
+
+=== January 21th, 2008 ===
+
+I have built up an enhanced Gentoo VM, it  Includes a frame buffer splash and VMware Tools... more details [[Enhanced Gentoo VM]]
+
+--[[User:Stonie|Stonie]] 02:13, 21 January 2008 (PST)
+
+== Releases ==
+This is a relatively bare bones install of [http://www.gentoo.org/ Gentoo Linux].   [http://en.wikipedia.org/wiki/Xorg Xorg] and a [http://en.wikipedia.org/wiki/X_window_manager window manager] are not included.&lt;br/&gt;
+
+
+=== Latest Release ===
+''This is merely a release candidate and has not been tested thoroughly; mileage may vary.
+Please report any problems to the [[Talk:Main_Page|discussion page]]''.
+
+[http://www.gentoovm.com/files/gentoovm-2007.0-stage3-i686-10gb-20071027_rc1.zip.torrent Gentoo Linux Virtual Machine (2007.0-stage3-i686, 10gb) - 20071027_rc1]
+''torrent is offline until further notice''
+
+
+=== Previous Releases ===
+'''[http://www.gentoo.org/ Gentoo Linux] 2006.1 (Barebones) VMWare Appliance [~409 MB] - September 23rd, 2006:'''
+{| style=&quot;border-collapse: collapse;&quot; |
+| style=&quot;border: 1px solid #ccf; padding: 4px; text-align: center;&quot; | [http://www.gentoovm.com/files/gentoo-2006.1-2.6.17-20060923.zip.md5 MD5]
+| style=&quot;border: 1px solid #ccf; padding: 4px; font-weight: bold; text-align: center;&quot; | Source
+| style=&quot;border: 1px solid #ccf; padding: 4px; font-weight: bold; text-align: center;&quot; | Comments
+|-
+| style=&quot;border: 1px solid #ccf; padding: 4px;&quot; | [http://gentoo.chem.wisc.edu/vmware-images/gentoo-2006.1-2.6.17-20060923.zip Mirror 1]
+| style=&quot;border: 1px solid #ccf; padding: 4px;&quot; | http://gentoo.chem.wisc.edu
+| style=&quot;border: 1px solid #ccf; padding: 4px;&quot; | UW-Madison Dept. of Chemistry official Gentoo source mirror
+|-
+| style=&quot;border: 1px solid #ccf; padding: 4px;&quot; | [http://gentoovm.intarweb.net/gentoo-2006.1-2.6.17-20060923.zip Mirror 2]
+| style=&quot;border: 1px solid #ccf; padding: 4px;&quot; | gentoovm.intarweb.net
+| style=&quot;border: 1px solid #ccf; padding: 4px;&quot; | This mirror generously provided by [http://gentoovm.intarweb.net/readme.txt Phaerus]
+|-
+| style=&quot;border: 1px solid #ccf; padding: 4px;&quot; | [http://gentoovm.sectionzero.org/gentoo-2006.1-2.6.17-20060923.zip Mirror 3]
+| style=&quot;border: 1px solid #ccf; padding: 4px;&quot; | gentoovm.sectionzero.org
+| style=&quot;border: 1px solid #ccf; padding: 4px;&quot; | This mirror generously provided by [http://sectionzero.org SectionZero]
+|}
+
+== Getting Started ==
+All you need to do to get started is download the virtual machine files provided here, and download vmware server and vmware server console! The VMWare server and console programs are completely free from vmware.com and will allow you to run your virtual machine. VMWare server allows you to take snapshots, so if you're experimenting take snapshots as you advance so you can revert to something else if you screw up.
+
+If you are using windows, you only need to download the vmware server program from vmware.com. If you are on linux or another OS, it is possible to seperate the two and run the virtual machine on a different host than the computer you are on.
+
+Once you have the vmware server program installed and the compressed virtual machine from this site downloaded, all you need to do is extract the downloaded file! After this open up vmware-server and import the virtual machine (Click file, click import, navigate to your virtual machine's .vmx file, and click ok!)
+
+As soon as the machine has been imported, all you need to do is click play!! Rock and ROLL!
+
+
+=== Logging In ===
+[[Image:started.png|thumb|GentooVM started]]
+When the virtual machine finishes starting you will be prompted for a login:
+* Login: root
+* Password: gentoo
+
+
+=== Connecting To The Virtual Machine ===
+For security reasons, SSH is '''not''' configured to start on boot up, as it is recommended that the root password be changed first:
+ # passwd
+At which point SSH can be started:
+ # /etc/init.d/sshd start
+And SSH can be configured to start every time that the virtual machine is run:
+ # rc-update add sshd default
+
+
+=== Installing Packages ===
+Prior to installing any packages, it is recommended that the Gentoo mirrors list be populated (''this only has to be done once''):
+ # mirrorselect --output --servers 10 &gt;&gt; /etc/make.conf
+And [http://en.wikipedia.org/wiki/Portage_(software) portage] synchronized:
+ # emerge --sync
+
+
+=== See Also ===
+[[FAQ|Frequently Asked Questions]]
+
+
+== Downloads ==
+* [http://www.gentoovm.com/files/gentoovm-blank-20070125.zip Blank Virtual Drive WMWare Appliance] [http://www.gentoovm.com/files/gentoovm-blank-20070125.zip.md5 MD5]
+** For those who want to experiment with the Gentoo installation themselves, this is the VMWare Appliance I used for an empty slate (10GB Virtual Drive).  The VMWare Appliance is ready to boot off of the CD in the CD-ROM (this requires VMWare to be setup appropriately, but this is the default setting) simply because I had a Gentoo InstallCD handy.
+** Filesize
+*** Compressed: 4.04 KB (4,147 bytes)
+*** Extracted: 1.31 MB (1,377,959 bytes)
+** Virtual Drive: 10.7 GB, 10737418240 bytes
+
+
+== Links ==
+* QEMU for [http://fabrice.bellard.free.fr/qemu/ Linux], [http://www.h7.dion.ne.jp/~qemu-win/ Windows]</text>
+    </revision>
+  </page>
+  <page>
+    <title>FAQ</title>
+    <id>5</id>
+    <revision>
+      <id>147</id>
+      <timestamp>2008-06-06T09:10:13Z</timestamp>
+      <contributor>
+        <ip>221.213.47.10</ip>
+      </contributor>
+      <comment>how to set up networking?</comment>
+      <text xml:space="preserve">__TOC__
+
+=== How is the GentooVM configured (i.e. what packages are installed)? ===
+The [http://www.gentoo.org/doc/en/handbook/handbook-x86.xml Gentoo Handbook] was followed very closely with the exception of some steps being skipped because of their user specific nature.
+
+More information regarding the [http://en.wikipedia.org/wiki/Virtual_machine virtual machine]'s configuration can be found on the [[Configuration Details|Configuration Details page]].
+
+If you're looking to perform in depth customization of the [http://en.wikipedia.org/wiki/Virtual_machine virtual machine], I would recommend starting with the [http://en.wikipedia.org/wiki/Linux_kernel kernel] configuration:
+ # cd /usr/src/linux
+ # make menuconfig
+''Further instructions regarding [http://en.wikipedia.org/wiki/Linux_kernel kernel] compilation can be found in the [http://www.gentoo.org/doc/en/handbook/handbook-x86.xml?part=1&amp;chap=7#doc_chap3 Gentoo Handbook: Configuring the Kernel (Manual Configuration)].''
+
+
+
+=== How do I set my timezone? ===
+* By default, the [http://en.wikipedia.org/wiki/Virtual_machine virtual machine] is set to '''[http://en.wikipedia.org/wiki/Utc UTC]'''.
+''Details can be found in the [http://www.gentoo.org/doc/en/handbook/handbook-x86.xml?part=1&amp;chap=7 Gentoo Handbook: Configuring the Kernel].''
+ # ls /usr/share/zoneinfo
+ # cp /usr/share/zoneinfo/&lt;font color=&quot;#00f&quot;&gt;TIMEZONE&lt;/font&gt; /etc/localtime
+ # nano -w /etc/conf.d/clock
+
+
+
+=== How do I specify [http://en.wikipedia.org/wiki/GNU_C_Library glibc] locales? ===
+* The stock [http://en.wikipedia.org/wiki/Virtual_machine virtual machine] is configured with '''en_US ISO-8859-1''' and '''en_US.UTF-8 UTF-8'''.
+ # nano -w /etc/locale.gen
+ # locale-gen
+
+=== How do I set up networking? ===
+''I couldn't find a way to get networking to work!''
+* There appears to be no kernel sources included
+* There is no network card driver (at least that I can find)
+* It's therefore impossible to download a network card driver or sources to build one</text>
+    </revision>
+  </page>
+  <page>
+    <title>Configuration Details</title>
+    <id>6</id>
+    <revision>
+      <id>37</id>
+      <timestamp>2007-10-26T03:14:50Z</timestamp>
+      <contributor>
+        <ip>10.0.1.144</ip>
+      </contributor>
+      <text xml:space="preserve">=== Gentoo Linux 2006.1 (Barebones) Appliance ===
+* Virtual Drive: 10.7 GB, 10737418240 bytes
+** Partitions
+ /dev/hda1	boot	ext2		32MB
+ /dev/hda2		swap		512MB
+ /dev/hda3		reiserfs	10GB
+* Timezone: US/Pacific
+* Hostname: gentoo-vm
+* Kernel: gentoo-sources-2.6.17-r8
+* Boot Loader: grub-0.97-r2
+* Network Interface(s):
+** eth0: DHCP
+&lt;br/&gt;
+{{Box File
+|/etc/make.conf
+|&lt;pre&gt;
+CFLAGS=&quot;-O2 -march=i686 -pipe&quot;
+CHOST=&quot;i686-pc-linux-gnu&quot;
+CXXFLAGS=&quot;${CFLAGS}&quot;
+MAKEOPTS=&quot;-j2&quot;
+
+GENTOO_MIRRORS=&quot; \
+  http://gentoo.osuosl.org/ \
+  http://distro.ibiblio.org/pub/linux/distributions/gentoo/ \
+  http://www.gtlib.gatech.edu/pub/gentoo \
+  http://ftp.ucsb.edu/pub/mirrors/linux/gentoo/ \
+  http://gentoo.seren.com/gentoo \
+  http://gentoo.chem.wisc.edu/gentoo/ \
+  http://cudlug.cudenver.edu/gentoo/ \
+  http://gentoo.mirrors.pair.com/ \
+  http://gentoo.mirrors.tds.net/gentoo \
+  http://gentoo.netnitco.net \
+  http://mirror.espri.arizona.edu/gentoo/ \
+  http://mirrors.acm.cs.rpi.edu/gentoo/ \
+  http://gentoo.llarian.net/ \
+  http://mirror.datapipe.net/gentoo \
+  http://gentoo.cs.lewisu.edu/gentoo/ \
+  http://prometheus.cs.wmich.edu/gentoo \
+  http://mirror.usu.edu/mirrors/gentoo/ \
+  http://mirror.phy.olemiss.edu/mirror/gentoo \
+  http://mirror.mcs.anl.gov/pub/gentoo/ \
+  http://gentoo.cites.uiuc.edu/pub/gentoo/ \
+  http://mirror.clarkson.edu/pub/distributions/gentoo/ \
+  http://www.las.ic.unicamp.br/pub/gentoo/&quot;
+
+SYNC=&quot;rsync://rsync.namerica.gentoo.org/gentoo-portage&quot;
+
+USE=&quot; \
+  sse acpi -apm \
+  alsa -oss -arts -dvdr -dvd -scanner \
+  -pcmcia -ieee1394 \
+  -ipv6 \
+  -X -kde -gnome -gtk -gtk2 -gnustep -opengl \
+  apache2 mysql php mcal imagemagick ssl xml2 \
+  samba -ldap -cups \
+  qmail spamassassin imap maildir&quot;
+&lt;/pre&gt;
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Enhanced Gentoo VM</title>
+    <id>23</id>
+    <revision>
+      <id>185</id>
+      <timestamp>2010-03-01T04:31:37Z</timestamp>
+      <contributor>
+        <ip>64.142.30.104</ip>
+      </contributor>
+      <comment>Removing spam.</comment>
+      <text xml:space="preserve">[[Image:Gentoovm.ScreenShot_thumb.jpg]]
+
+
+Building on the base release candidate vm I have created this alternative VM option.  
+
+The main enhancements are the inclusion of a '''frame buffer splash''', '''VMware tools''' and a deep world update. 
+As well as the addition of a few small Gentoo tools, with the view of keeping the VM lightweight. 
+
+=== Download ===
+
+Check the [[Talk:Main_Page]] page. '''(I no longer host this image it's out of date)''' --[[User:Stonie|Stonie]] 18:21, 16 July 2009 (PDT)
+
+=== Details of changes from the base VM ===
+
+emerged mirror select
+
+Emerged colordiff
+
+emerge flagedit
+
+Updated colordiff config
+
+Ran emerge -tva -DNu world
+
+Ran etc-update 
+
+emerge gentoolkit
+
+emerged pciutils
+
+Setup Framebuffer splash, external howto :
+[http://gentoo-wiki.com/HOWTO_gensplash#Installation]
+
+enabled png and type support in splashutils
+
+emerged splashutils 
+
+Configured kernel for a frame buffer splash
+
+Changed resolution to 1024x768
+
+Recovered disk space, external howto :
+[http://gentoo-wiki.com/TIP_Free_up_disk_space_in_Gentoo]
+blew away temp files 
+and kernel source. 
+
+Installed VMWARE tools as per these instructions, external howto :
+[http://www.vmwhere.net/gentoo/install-vmware-tools-in-the-gentoo-vm/]
+
+Shrank Vm with Vm shrink, external howto :
+[http://chitchat.at.infoseek.co.jp/vmware/vsmtools.html#vmw]
+
+== Getting Started ==
+
+=== Login ===
+
+Login is the same as the basic VM 
+
+root
+gentoo
+
+=== Networking ===
+
+Make sure your host is configured correctly and then bring up your adaptor
+
+ # ifconfig eth3 up
+ # dhcpcd eth3 
+
+For auto starting and other config check out the gentoo handbook: [http://www.gentoo.org/doc/en/handbook/handbook-x86.xml?part=1&amp;chap=8]
+
+== Notes on initial configuration ==
+
+=== /etc/localtime ===
+The timezone in the image is set for New York, or EST/EDT.  If you live in a different timezone, you should change this link.  Look for your timezone in /usr/share/zoneinfo/ and then create a link to your desired timezone:
+
+ # cd /etc
+ # rm localtime
+ # ln -s ../usr/share/zoneinfo/&lt;your-desired-timezone-here&gt; localtime
+
+Check your setting with the 'date' command.  Also if you need to change the clock, use the 'hwclock' command.  You also may want to emerge the ntp package to set your clock in sync with Internet time servers.
+
+=== /etc/conf.d/clock ===
+There is a timezone setting in this file as well.  You can set the timezone to the same one as the link above.
+
+ # vi /etc/conf.d/clock
+ (set the TIMEZONE to something like TIMEZONE=&quot;Australia/Sydney&quot;)
+
+
+--[[User:Stonie|Stonie]] 17:40, 19 July 2008 (PDT)</text>
+    </revision>
+  </page>
+</mediawiki>
